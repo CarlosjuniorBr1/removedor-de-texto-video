@@ -1,0 +1,43 @@
+# ── Vídeos (nunca versionar) ─────────────────────────────
+*.mp4
+*.MP4
+*.mov
+*.MOV
+*.mkv
+*.avi
+*.webm
+*.m4v
+*.flv
+*.wmv
+*.mpg
+*.mpeg
+*.3gp
+*.ts
+*.mts
+*.m2ts
+*.vob
+*.ogv
+.tmp_*
+
+# ── Resultados gerados pelo script ───────────────────────
+*_texto.json
+*_sem_texto.json
+
+# ── Python ───────────────────────────────────────────────
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ── Editores / sistema ───────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ── Claude Code (configuração local) ─────────────────────
+.claude/settings.local.json

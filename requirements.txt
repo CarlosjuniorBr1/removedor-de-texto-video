@@ -1,0 +1,6 @@
+opencv-python
+numpy
+rapidocr
+onnxruntime
+customtkinter
+pillow
